@@ -1,25 +1,33 @@
 <template>
    <div>
      <h1>{{title}}</h1>
-     <h2>{{subtitle}}</h2>
+     <h2><u>{{subtitle}}</u></h2>
    </div>
 </template>
 <script>
 export default {
   data(){
     return {
-      title: 'Meine erste Titel-Komponente (01_Title.vue)!',
-      subtitle: 'Hier kommt der Untertitel.'
+      title: 'Willkommen im Modul 291!',
+      subtitle: 'Programmierung mit einem Frontend-Framework'
     }
   }
 }
 </script>
 
 <style>
-h1,h2 {
+h1 {
   font-family: 'Avenir', Helvetica, Arial, sans-serif;
   text-align: center;
-  color: #2c3e50;
+  color: black;
   margin-top: 60px;
 }
+h2 {
+  font-family: 'Avenir', Helvetica, Arial, sans-serif;
+  text-align: center;
+  color: red;
+  margin-top: 60px;
+}
+
+
 </style>

@@ -1,10 +1,17 @@
 <template>
   <div>
+    <h1>{{ istGross ? title.toUpperCase(): title.toLowerCase() }}</h1>
   </div>
 </template>
 
 <script>
 export default {
+  data(){
+    return {
+      title: 'willkommen geschätzte klasse me21e!',
+      istGross: false
+    }
+  }
 }
 </script>
 
@@ -14,6 +21,5 @@ h1 {
   text-align: center;
   color: #2c3e50;
   margin-top: 60px;
-  border: 2px solid lightgreen;
 }
 </style>
