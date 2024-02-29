@@ -5,7 +5,7 @@ Fügen Sie einen einfachen Text bei den ? ein
 und geben Sie diesen aus.
 -->
   <div>
-    <h1>?</h1>
+    <h1>Komplizierter Text</h1>
   </div>
 </template>
 <style>

@@ -5,14 +5,15 @@ b. Geben Sie den Inhalt des Data-Prop über die h1-Tags aus. (Tipp: {{}} verwend
 -->
 <template>
   <div>
-    <h1></h1>
+    <h5>von {{firstName}},{{lastName}}</h5>
   </div>
 </template>
 <script>
 export default {
   data() {
     return {
-      //?
+      firstName: "Luca",
+      lastName: "Züger",
     }
   },
 }

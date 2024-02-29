@@ -7,7 +7,7 @@ b. Geben Sie den Inhalt des Data-Prop über die h1-Tags aus, jedoch wie folgt:
 -->
 <template>
   <div>
-    <h1></h1>
+    <h1>{{isLowerCase ? firstName.toLowerCase(): firstName.toUpperCase()}}</h1>
   </div>
 </template>
 
@@ -15,8 +15,8 @@ b. Geben Sie den Inhalt des Data-Prop über die h1-Tags aus, jedoch wie folgt:
 export default {
   data() {
     return {
-      //?
-      //??
+      firstName: "My name is Luca",
+      isLowerCase: true
     }
   },
 }
