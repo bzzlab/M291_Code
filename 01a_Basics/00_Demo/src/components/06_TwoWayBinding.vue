@@ -1,20 +1,15 @@
 <template>
-  <!--
-   TwoWayBinding Using v-model
-  -->
   <section>
     <div>
-      <h2 :class="$style.title">{{ title }}</h2>
-      <h3 :class="$style.subtitle">{{ subtitle }}</h3>
+      <h2></h2>
+      <h3></h3>
     </div>
-    <div :class="$style.form">
+    <div>
       <label>
-        Name
-        <input type="text" v-model="name" />
+        <input/>
       </label>
       <label>
-        Preferred music style
-        <select name="music_style" v-model="music_style">
+        <select>
           <option value="Jazz">Jazz</option>
           <option value="Rock">Rock</option>
           <option value="Funk">Funk</option>
@@ -22,11 +17,11 @@
         </select>
       </label>
     </div>
-    <div :class="$style.overview">
+    <div>
       <h3>Anmeldung</h3>
       <ul>
-        <li>Name: {{ name }}</li>
-        <li>Preference: {{ music_style }}</li>
+        <li></li>
+        <li></li>
       </ul>
     </div>
   </section>
@@ -36,10 +31,6 @@
 export default {
   data() {
     return {
-      title: 'Musik Sommer-Kurs',
-      subtitle: 'Juli 202x (06_TwoWayBinding.vue)',
-      name: '',
-      music_style: ''
     }
   },
 }

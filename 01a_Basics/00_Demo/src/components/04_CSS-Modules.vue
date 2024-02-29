@@ -1,11 +1,5 @@
 <template>
-  <!--
-    CSS_Modules
-    Demo_01-04: Style Vue Components Using CSS Modules
-    -->
   <div>
-    <h1 :class="$style.title">{{ title }}</h1>
-    <h2 :class="$style.subtitle">{{ subtitle }}</h2>
   </div>
 </template>
 
@@ -13,8 +7,6 @@
 export default {
   data() {
     return {
-      title: 'CSS module Komponente!',
-      subtitle: '04_CSS-Modules.vue'
     }
   },
 }
@@ -30,11 +22,13 @@ h2 {
   font-family: 'Avenir', Helvetica, Arial, sans-serif;
   color: #2c3e50;
   margin-top: 60px;
+  //Demo_01-04: Style Vue Components Using CSS Modules
   border: 5px solid red;
 }
 .subtitle {
   color: #4fc08d;
   font-style: italic;
+  //Demo_01-04: Style Vue Components Using CSS Modules
   border: 3px solid orange;
 }
 </style>
